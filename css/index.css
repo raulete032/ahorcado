@@ -1,0 +1,18 @@
+.playZone{
+    height: 60vh;
+}
+
+#teclado button{
+    width: 50px;
+    height: 50px;
+    margin: 5px 2px;
+}
+
+#teclado button:hover{
+    cursor: pointer;
+}
+
+#wordDashes{
+    font-size: 40px;
+    letter-spacing: 15px;
+}

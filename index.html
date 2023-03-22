@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <!--MI CSS-->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4 justify-content-center border">
+            <div class="col-12">
+                <h1 class="text-center">AHORCADO</h1>
+            </div>
+            <div class="col-8 text-center mb-4">
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon3">Escribe aquí la palabra a adivinar</span>
+                    <input type="password" class="form-control" id="secretWord" aria-describedby="basic-addon3">
+                </div>
+                <button id="btnConfirmar" class="btn btn-primary mt-4">Confirmar</button>
+            </div>
+        </div>
+
+        <div class="row playZone">
+            <div class="col-6 border">
+                <div class="row">
+                    <div class="col-12 text-center" id="wordDashes">
+                        
+                    </div>
+                    <div class="col-12" id="ahorcado">
+                        <p id="windLose" class="text-center mt-4"></p>
+                        <img id="ImgAhorcado" src="">
+                    </div>
+                    <div class="col-12 text-center">
+                        <button id="restart" class="btn btn-danger" style="visibility: hidden;">Reiniciar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 border" style="visibility: visible;">
+                <div class="row mt-5">
+                    <div class="col-12" id="teclado">
+                        <div class="row">
+                            <div class="col-12 text-center" id="tecladoNumbers">
+
+                            </div>
+                            <div class="col-12 text-center" id="tecladoLetters1">
+
+                            </div>
+                            <div class="col-12 text-center" id="tecladoLetters2">
+
+                            </div>
+                            <div class="col-12 text-center" id="tecladoLetters3">
+
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
